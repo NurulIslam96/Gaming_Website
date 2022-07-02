@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;   
+}
+
+body{
+    background:url(Background-body.png);
+    background-size: cover;
+}
+
+#valorant{
+    font-family: 'Stylish', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(253, 253, 253);
+    border-radius: 4px;
+    box-shadow: inset 5px 0 0 0 5px red;
+    transition: ease-out 0.3s;
+}
+#valorant:hover{
+    box-shadow: inset 300px 0 0 5px red;
+}
+
+#lol{
+    font-family: 'Stylish', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: inset 5px 0 0 0 5px red;
+    transition: ease-out 0.3s;
+}
+#lol:hover{
+    box-shadow: inset 300px 0 0 5px red;
+}
